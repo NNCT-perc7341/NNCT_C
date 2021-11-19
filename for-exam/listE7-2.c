@@ -3,13 +3,15 @@
 int main(void);
 
 int main(void){
-  int i = 0, j = 0;
+  int i = 0;
   while (i < 10) {
+    int j = 0;
     printf("%d: ", i);
-    while (i < j) {
-      putchar('*')
+    while (j < i) {
+      putchar('*');
       j++;
     }
+    printf("\n");
     i++;
   }
   return 0;
