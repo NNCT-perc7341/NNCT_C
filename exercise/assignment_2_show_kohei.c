@@ -25,55 +25,55 @@ int main(void){
     }
   }
 
-  printf("【1個あたりのカロリー】¥n------------------¥n品名¥t カロリー¥n------------------");
-  printf("りんご¥t%4d kcal/個¥n",y[0]);
-  printf("梨¥t%4d kcal/個¥n",y[1]);
-  printf("バナナ¥t%4d kcal/個¥n",y[2]);
-  printf("みかん¥t%4d kcal/個¥n",y[3]);
-  printf("プルーン%4d kcal/個¥n¥n",y[4]);
+  printf("【1個あたりのカロリー】\n------------------\n品名\t カロリー\n------------------");
+  printf("りんご\t%4d kcal/個\n",y[0]);
+  printf("梨\t%4d kcal/個\n",y[1]);
+  printf("バナナ\t%4d kcal/個\n",y[2]);
+  printf("みかん\t%4d kcal/個\n",y[3]);
+  printf("プルーン%4d kcal/個\n\n",y[4]);
 
-  printf("【食べた量】¥n------------------¥n氏名¥tりんご¥t　梨¥tバナナ¥tみかん¥tプルーン¥n------------------¥n", );
+  printf("【食べた量】\n------------------\n氏名\tりんご\t　梨\tバナナ\tみかん\tプルーン\n------------------\n");
 
-  printf("安藤¥t");
+  printf("安藤\t");
   for (int m = 0; m < ab; m++) {
-    printf("%3d個¥t", x[0][m]);
+    printf("%3d個\t", x[0][m]);
   }
-  printf("¥n");
-  printf("笠井¥t");
+  printf("\n");
+  printf("笠井\t");
   for (int m = 0; m < ab; m++) {
-    printf("%3d個¥t", x[1][m]);
+    printf("%3d個\t", x[1][m]);
   }
-  printf("¥n");
-  printf("佐野¥t");
+  printf("\n");
+  printf("佐野\t");
   for (int m = 0; m < ab; m++) {
-    printf("%3d個¥t", x[2][m]);
+    printf("%3d個\t", x[2][m]);
   }
-  printf("¥n");
-  printf("小林¥t");
+  printf("\n");
+  printf("小林\t");
   for (int m = 0; m < ab; m++) {
-    printf("%3d個¥t", x[3][m]);
+    printf("%3d個\t", x[3][m]);
   }
-  printf("¥n");
-  printf("杉本¥t");
+  printf("\n");
+  printf("杉本\t");
   for (int m = 0; m < ab; m++) {
-    printf("%3d個¥t", x[4][m]);
+    printf("%3d個\t", x[4][m]);
   }
-  printf("¥n");
-  printf("田中¥t");
+  printf("\n");
+  printf("田中\t");
   for (int m = 0; m < ab; m++) {
-    printf("%3d個¥t", x[5][m]);
+    printf("%3d個\t", x[5][m]);
   }
 
-  printf("¥n");
+  printf("\n");
 
-  printf("【摂取カロリー】¥n------------------¥n氏名¥tカロリー¥n------------------¥n", );
+  printf("【摂取カロリー】\n------------------\n氏名\tカロリー\n------------------\n");
   for (int n = 0; n < a; n++) {
-    if (n == 0)printf("%s¥t%5d kcal¥n", c[n], z[n]);
-    else if (n == 1)printf("%s¥t%5d kcal¥n", c[n], z[n]);
-    else if (n == 2)printf("%s¥t%5d kcal¥n", c[n], z[n]);
-    else if (n == 3)printf("%s¥t%5d kcal¥n", c[n], z[n]);
-    else if (n == 4)printf("%s¥t%5d kcal¥n", c[n], z[n]);
-    else if (n == 5)printf("%s¥t%5d kcal¥n", c[n], z[n]);
+    if (n == 0)printf("%s\t%5d kcal\n", c[n], z[n]);
+    else if (n == 1)printf("%s\t%5d kcal\n", c[n], z[n]);
+    else if (n == 2)printf("%s\t%5d kcal\n", c[n], z[n]);
+    else if (n == 3)printf("%s\t%5d kcal\n", c[n], z[n]);
+    else if (n == 4)printf("%s\t%5d kcal\n", c[n], z[n]);
+    else if (n == 5)printf("%s\t%5d kcal\n", c[n], z[n]);
   }
 
   return 0;
